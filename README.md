@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Message in a Bottle - Frontend
 
-## Available Scripts
+Message in a Bottle is a safe space for people to share thoughts and words with others around the world. Send or receive anonymous messages to other writers.
+This [link](https://github.com/andydvalle/message-in-a-bottle-backend) will direct you to the backend repository.
 
-In the project directory, you can run:
+## Motivation
 
-### `yarn start`
+Message in a Bottle application was created to provide people a chance to express words to random strangers if not able to do so in person.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Deployed Link or Installation
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Visit <https://messageinabottle.netlify.app/> to demo the live site
 
-### `yarn test`
+- Demo user:
+  - Username: demo
+  - Password: 123
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Local Installation:
 
-### `yarn build`
+1. Clone this repository
+2. Run the backend server - refer to [backend](https://github.com/andydvalle/message-in-a-bottle-backend) repository
+3. Run `npm install && npm start` in terminal
+4. Expect a broswer tab to open automatically
+5. Create an account and start creating messages in a bottle
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Users can:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Create an account
+- Login and signout
+- Create, read, update, and delete Journal entries
+- Create, read, and delete Messages
 
-### `yarn eject`
+## Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Watch the video demo [here](https://www.youtube.com/watch?v=6Rj1ToRvkI8&t=2s)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](React-App.gif)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technology Used
 
-## Learn More
+- React
+- Rails as API
+- JavaScript
+- Boostrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Authors
 
-### Code Splitting
+- Andy del Valle - [GitHub](https://github.com/andydvalle)
+- John Rusch - [GitHub](https://github.com/johnrusch)
+- Klarissa Smith - [GitHub](https://https://github.com/klarissasmith)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### Special Thanks To
 
-### Analyzing the Bundle Size
+- [Faker](https://github.com/faker-ruby/faker)
+- [FreeLogoDesign](https://www.freelogodesign.org/)
+- [Flaticon](https://www.flaticon.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Licensing
 
-### Making a Progressive Web App
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For a copy of the GNU General Public License along write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
